@@ -3,6 +3,8 @@ uniform float uY;
 uniform float uTwistMax;
 uniform float uRadius;
 
+varying float vY;
+
 void main() {
   vec4 modelPos = modelMatrix * vec4(position, 1.0);
 
@@ -25,4 +27,5 @@ void main() {
 
   gl_Position = projectionMatrix * viewMatrix * modelPos;
   vUv = uv;
+  vY = worldY;
 }
