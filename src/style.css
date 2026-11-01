@@ -41,7 +41,7 @@ body {
   font-weight: 800;
   line-height: 0.85;
   letter-spacing: -0.06em;
-  color: #6f6e6be0;
+  color: #6f6e6b77;
   text-transform: uppercase;
   white-space: nowrap;
   max-width: 100%;
@@ -52,14 +52,14 @@ body {
 
 .bg-type__line--mid {
   padding-left: 12vw;
-  color: #4b4947;
+  color: #4b49479f;
   animation-delay: -9s;
   animation-duration: 34s;
 }
 
 .bg-type__line--end {
   padding-left: 6vw;
-  color: #6f6e6bdd;
+  color: #6f6e6b77;
   animation-delay: -16s;
   animation-duration: 40s;
 }
